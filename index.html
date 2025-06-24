@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Application Form</title>
+</head>
+<body>
+  <h2>Forms</h2>
+  <form>
+    <form action="./form.php" method="POST" enctype="multipart/form-data"></form>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" placeholder="Enter your name">
+    <br>
+    <br>
+
+    <label for="gmail">Gmail:</label><br>
+    <input type="email" id="gmail" name="gmail" placeholder="Enter your gmail">
+    <br>
+    <br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="others" name="gender" value="others">
+    <label for="others">Others</label>
+    <br>
+    <br>
+    
+    <label>Courses:</label><br>
+    <input type="checkbox" id="ml" name="course" value="ml">
+    <label for="ml">ML</label>
+    <input type="checkbox" id="ai" name="course" value="ai">
+    <label for="ai">AI</label>
+    <input type="checkbox" id="ds" name="course" value="ds">
+    <label for="ds">DS</label>
+    <br>
+    <br>
+
+    <label for="fileUpload">Choose a file:</label><br>
+    <input type="file" id="fileUpload" name="myFile">
+    <br>
+    <br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" name="password" placeholder="Enter your password">
+    <br>
+    <br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
